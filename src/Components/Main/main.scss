@@ -1,0 +1,148 @@
+.main-container {
+  margin-top: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .main-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+
+      img {
+        width: 0%;
+        height: auto;
+      }
+
+      .text {
+        text-align: left;
+        padding-left: 2rem;
+
+        h1 {
+          font-size: 1.8rem;
+          margin-bottom: 1rem;
+          color: #4d7565;
+        }
+
+        h2 {
+          font-size: 1.8rem;
+          margin-bottom: 0.5rem;
+          color: #2d493e;
+        }
+
+        p {
+          font-size: 1rem;
+          margin-bottom: 1rem;
+          color: #4d7565;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .main-container {
+    .main {
+      .main-content {
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        img {
+          width: 50%;
+          margin-bottom: 2rem;
+          margin-right: 2rem;
+        }
+
+        .text {
+          width: 40%;
+          padding-left: 0;
+
+          h1 {
+            font-size: 1.6rem;
+          }
+          h2 {
+            font-size: 1.4rem;
+          }
+          p{
+            font-size: 1rem;
+        }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+    .main-container {
+        .main {
+          .main-content {
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: flex-start;
+    
+            img {
+              width: 40%;
+              margin-bottom: 2rem;
+              margin-right: 2rem;
+            }
+    
+            .text {
+              width: 40%;
+              padding-left: 0;
+    
+              h1 {
+                font-size: 1.8rem;
+              }
+              h2 {
+                font-size: 1.7rem;
+              }
+              p{
+                font-size: 1.3rem;
+            }
+            }
+          }
+        }
+      }
+}
+
+@media screen and (min-width: 1440px) {
+    .main-container {
+        .main {
+          .main-content {
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: flex-start;
+    
+            img {
+              width: 35%;
+              margin-bottom: 2rem;
+              margin-right: 2rem;
+            }
+    
+            .text {
+              width: 40%;
+              padding-left: 0;
+    
+              h1 {
+                font-size: 2.3rem;
+              }
+              h2 {
+                font-size: 1.9rem;
+              }
+              p{
+                font-size: 1.6rem;
+            }
+            }
+          }
+        }
+      }
+}
