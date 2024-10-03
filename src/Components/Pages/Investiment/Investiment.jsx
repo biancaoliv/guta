@@ -13,7 +13,7 @@ export const Investiment = () => {
               clareza e objetividade para a mensagem que você comunica.
             </p>
           </header>
-          
+
           <article className="investment-details">
             <h2>Pelo investimento de</h2>
             <h1 className="investment-price">R$440,00</h1>

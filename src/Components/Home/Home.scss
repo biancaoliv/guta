@@ -36,7 +36,6 @@
           border-radius: 0.8rem;
           cursor: pointer;
           transition: background-color 0.3s ease;
-          
 
           &:hover {
             background-color: #d4964f;
@@ -65,15 +64,15 @@
             font-size: 2rem;
           }
           p {
-            font-size: 1rem; 
+            font-size: 1rem;
           }
           .btn {
-            padding: 1rem; 
-            font-size: 1.3rem; 
+            padding: 1rem;
+            font-size: 1.3rem;
           }
         }
         img {
-          width: 58%; 
+          width: 58%;
           padding-right: 1rem;
         }
       }
@@ -91,22 +90,20 @@
             font-size: 2.6rem;
           }
           p {
-            font-size: 1.4rem; 
+            font-size: 1.4rem;
           }
           .btn {
-            padding: 2rem; 
-            font-size: 1.3rem; 
+            padding: 2rem;
+            font-size: 1.3rem;
           }
         }
         img {
-          width: 50%; 
+          width: 50%;
         }
       }
     }
   }
 }
-
-
 
 @media screen and (min-width: 1024px) {
   .home-section {
@@ -118,21 +115,20 @@
             font-size: 4rem;
           }
           p {
-            font-size: 1.6rem; 
+            font-size: 1.6rem;
           }
           .btn {
-            padding: 2rem; 
-            font-size: 1.4rem; 
+            padding: 2rem;
+            font-size: 1.4rem;
           }
         }
         img {
-          width: 50%; 
+          width: 50%;
         }
       }
     }
   }
 }
-
 
 @media screen and (min-width: 1440px) {
   .home-section {
@@ -145,16 +141,16 @@
             font-size: 4.6rem;
           }
           p {
-            font-size: 1.6rem; 
+            font-size: 1.6rem;
           }
           .btn {
-            padding: 2rem; 
-            font-size: 1.6rem; 
+            padding: 2rem;
+            font-size: 1.6rem;
             margin-top: 1rem;
           }
         }
         img {
-          width: 40%; 
+          width: 40%;
         }
       }
     }
@@ -165,7 +161,7 @@
     .home {
       .home-content {
         img {
-          width: 35%; 
+          width: 35%;
         }
       }
     }

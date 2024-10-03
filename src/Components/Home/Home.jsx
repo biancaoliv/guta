@@ -4,7 +4,7 @@ import woman from "../../Assets/womanedited.png";
 
 export const Home = () => {
   return (
-    <section className='home-section'>
+    <section className="home-section">
       <div className="home">
         <div className="home-content">
           <div className="textDiv">
@@ -15,7 +15,6 @@ export const Home = () => {
             </p>
 
             <button className="btn">Garanta seu lugar</button>
-
           </div>
           <img src={woman} alt="mulher"></img>
         </div>

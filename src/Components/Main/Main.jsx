@@ -1,13 +1,13 @@
 import React from "react";
 import "./main.scss";
-import square from '../../Assets/square.png'
+import square from "../../Assets/square.png";
 
 export const Main = () => {
   return (
     <section className="main-container">
       <div className="main">
         <div className="main-content">
-        <img src={square} alt="mulher" />
+          <img src={square} alt="mulher" />
           <div className="text">
             <h1>A consultoria é composta por:</h1>
             <h2>Cores de Essência</h2>
