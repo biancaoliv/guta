@@ -1,169 +1,170 @@
 .home-section {
-  background-color: #e9e1da;
-
-  .home {
-    .home-content {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-direction: row;
-
-      .textDiv {
-        text-align: left;
-        padding: 20px;
-        h1 {
-          font-size: 1.6rem;
-          margin-bottom: 0.8rem;
-          color: #4d7565;
-        }
-
-        p {
-          font-size: 1rem;
-          color: #4d7565;
-          font-weight: 500;
-          margin-bottom: 0.8rem;
-        }
-
-        .btn {
-          padding: 1.4rem 2rem;
-          font-size: 1rem;
-          font-weight: 500;
-          background-color: #fcb67d;
-          margin-top: 1rem;
-
-          color: #263f35;
-          border: none;
-          border-radius: 0.8rem;
-          cursor: pointer;
-          transition: background-color 0.3s ease;
-
-          &:hover {
-            background-color: #d4964f;
-          }
-        }
-      }
-
-      img {
-        width: 0%;
-        right: 1%;
-        height: auto;
-        position: relative;
-        z-index: 1;
-      }
-    }
-  }
-}
-
-@media screen and (min-width: 500px) {
-  .home-section {
+    background-color: #e9e1da;
+  
     .home {
       .home-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+  
         .textDiv {
-          width: 100%;
+          text-align: left;
+          padding: 20px;
           h1 {
-            font-size: 2rem;
+            font-size: 1.6rem;
+            margin-bottom: 0.8rem;
+            color: #4d7565;
           }
+  
           p {
             font-size: 1rem;
+            color: #4d7565;
+            font-weight: 500;
+            margin-bottom: 0.8rem;
           }
+  
           .btn {
-            padding: 1rem;
-            font-size: 1.3rem;
-          }
-        }
-        img {
-          width: 58%;
-          padding-right: 1rem;
-        }
-      }
-    }
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .home-section {
-    .home {
-      .home-content {
-        .textDiv {
-          width: 100%;
-          h1 {
-            font-size: 2.6rem;
-          }
-          p {
-            font-size: 1.4rem;
-          }
-          .btn {
-            padding: 2rem;
-            font-size: 1.3rem;
-          }
-        }
-        img {
-          width: 50%;
-        }
-      }
-    }
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .home-section {
-    .home {
-      .home-content {
-        .textDiv {
-          width: 100%;
-          h1 {
-            font-size: 4rem;
-          }
-          p {
-            font-size: 1.6rem;
-          }
-          .btn {
-            padding: 2rem;
-            font-size: 1.4rem;
-          }
-        }
-        img {
-          width: 50%;
-        }
-      }
-    }
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .home-section {
-    .home {
-      .home-content {
-        .textDiv {
-          width: 50%;
-          text-align: left;
-          h1 {
-            font-size: 4.6rem;
-          }
-          p {
-            font-size: 1.6rem;
-          }
-          .btn {
-            padding: 2rem;
-            font-size: 1.6rem;
+            padding: 1.4rem 2rem;
+            font-size: 1rem;
+            font-weight: 500;
+            background-color: #fcb67d;
             margin-top: 1rem;
+  
+            color: #263f35;
+            border: none;
+            border-radius: 0.8rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+  
+            &:hover {
+              background-color: #d4964f;
+            }
           }
         }
+  
         img {
-          width: 40%;
+          width: 0%;
+          right: 1%;
+          height: auto;
+          position: relative;
+          z-index: 1;
         }
       }
     }
   }
-}
-@media screen and (min-width: 1620px) {
-  .home-section {
-    .home {
-      .home-content {
-        img {
-          width: 35%;
+  
+  @media screen and (min-width: 500px) {
+    .home-section {
+      .home {
+        .home-content {
+          .textDiv {
+            width: 100%;
+            h1 {
+              font-size: 2rem;
+            }
+            p {
+              font-size: 1rem;
+            }
+            .btn {
+              padding: 1rem;
+              font-size: 1.3rem;
+            }
+          }
+          img {
+            width: 58%;
+            padding-right: 1rem;
+          }
         }
       }
     }
   }
-}
+  
+  @media screen and (min-width: 768px) {
+    .home-section {
+      .home {
+        .home-content {
+          .textDiv {
+            width: 100%;
+            h1 {
+              font-size: 2.6rem;
+            }
+            p {
+              font-size: 1.4rem;
+            }
+            .btn {
+              padding: 2rem;
+              font-size: 1.3rem;
+            }
+          }
+          img {
+            width: 50%;
+          }
+        }
+      }
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .home-section {
+      .home {
+        .home-content {
+          .textDiv {
+            width: 100%;
+            h1 {
+              font-size: 4rem;
+            }
+            p {
+              font-size: 1.6rem;
+            }
+            .btn {
+              padding: 2rem;
+              font-size: 1.4rem;
+            }
+          }
+          img {
+            width: 50%;
+          }
+        }
+      }
+    }
+  }
+  
+  @media screen and (min-width: 1440px) {
+    .home-section {
+      .home {
+        .home-content {
+          .textDiv {
+            width: 50%;
+            text-align: left;
+            h1 {
+              font-size: 4.6rem;
+            }
+            p {
+              font-size: 1.6rem;
+            }
+            .btn {
+              padding: 2rem;
+              font-size: 1.6rem;
+              margin-top: 1rem;
+            }
+          }
+          img {
+            width: 40%;
+          }
+        }
+      }
+    }
+  }
+  @media screen and (min-width: 1620px) {
+    .home-section {
+      .home {
+        .home-content {
+          img {
+            width: 35%;
+          }
+        }
+      }
+    }
+  }
+  
