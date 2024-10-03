@@ -1,5 +1,5 @@
 import React from "react";
-import "./Home.scss";
+import "./home.scss";
 import woman from "../../Assets/womanedited.png";
 
 export const Home = () => {

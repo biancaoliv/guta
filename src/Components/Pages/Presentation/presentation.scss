@@ -1,0 +1,125 @@
+.presentation-container {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .presentation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    .presentation-text {
+      padding-right: 1rem;
+      padding-left: 1rem;
+      margin-right: 1rem;
+
+      h1 {
+        margin-top: 2rem;
+        font-size: 8vw;
+        color: #4d7565;
+        margin-bottom: 1rem;
+      }
+
+      p {
+        font-size: 4vw;
+        color: #4d7565;
+        font-weight: 500;
+        margin-bottom: 1rem;
+      }
+    }
+
+    .presentation-img {
+      display: flex;
+
+      img {
+        width: 0%;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .presentation-container {
+    .presentation {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row;
+      .presentation-text {
+        margin-right: 1rem;
+        h1 {
+          font-size: 3vw;
+        }
+        p {
+          font-size: 2vw;
+        }
+      }
+      .presentation-img {
+        display: flex;
+        img {
+          width: 55%;
+          height: 100%;
+          padding-right: 1rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .presentation-container {
+    .presentation {
+      .presentation-text {
+        margin-right: 1rem;
+
+        h1 {
+          font-size: 3.5vw;
+        }
+        p {
+          font-size: 2.2vw;
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 1024px) {
+  .presentation-container {
+    .presentation {
+      .presentation-text {
+        h1 {
+          font-size: 3.8vw;
+        }
+        p {
+          font-size: 1.8vw;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .presentation-container {
+    .presentation {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      .presentation-text {
+        h1 {
+          font-size: 3.4vw;
+          margin-bottom: 2rem;
+        }
+        p {
+          font-size: 1.5vw;
+          line-height: 1.8;
+        }
+      }
+      .presentation-img {
+        img {
+          width: 40%;
+        }
+      }
+    }
+  }
+}
