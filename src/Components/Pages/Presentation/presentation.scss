@@ -10,6 +10,7 @@
     align-items: center;
     flex-direction: row;
     .presentation-text {
+      flex: 1 1 45%;
       padding-right: 1rem;
       padding-left: 1rem;
       margin-right: 1rem;
@@ -26,6 +27,7 @@
         color: #4d7565;
         font-weight: 500;
         margin-bottom: 1rem;
+        line-height: 1.6;
       }
     }
 
@@ -34,6 +36,7 @@
 
       img {
         width: 0%;
+        height: auto;
       }
     }
   }
@@ -59,7 +62,7 @@
         display: flex;
         img {
           width: 55%;
-          height: 100%;
+          height: auto;
           padding-right: 1rem;
         }
       }
@@ -91,7 +94,12 @@
           font-size: 3.8vw;
         }
         p {
-          font-size: 1.8vw;
+          font-size: 1.5vw;
+        }
+      }
+      .presentation-img {
+        img {
+          width: 40%;
         }
       }
     }

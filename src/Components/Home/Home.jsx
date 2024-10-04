@@ -3,8 +3,13 @@ import './Home.scss'
 import woman from "../../Assets/womanedited.png";
 
 export const Home = () => {
+
+  const handleButtonClick = () => {
+    window.location.href ='https://api.whatsapp.com/send?phone=5547997257509&text=Quero%20garantir%20minha%20vaga%20na%20consultoria!😀'
+  }
+
   return (
-    <section className="home-section">
+    <section id='inicio' className="home-section">
       <div className="home">
         <div className="home-content">
           <div className="textDiv">
@@ -14,7 +19,7 @@ export const Home = () => {
               uma imagem harmônica e confiante.
             </p>
 
-            <button className="btn">Garanta seu lugar</button>
+            <button className="btn" onClick={handleButtonClick}>Garanta seu lugar</button>
           </div>
           <img src={woman} alt="mulher"></img>
         </div>

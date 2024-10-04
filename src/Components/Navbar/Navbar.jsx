@@ -11,6 +11,14 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
+  const setMenu = (id) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+      setIsOpen(false);
+    }
+  }
+
   return (
     <section className="navBarSection">
       <header className="header flex">
@@ -28,25 +36,26 @@ const Navbar = () => {
         <div className={`navBar ${isOpen ? "active" : ""}`}>
           <ul className="navLists flex" flex>
             <li className="navItem">
-              <a href="#" className="navLink">
+              <a href="#" className="navLink" onClick={() => setMenu('inicio')}>
                 Início
               </a>
             </li>
             <li className="navItem">
-              <a href="#" className="navLink">
+              <a href="#" className="navLink" onClick={() => setMenu('consultoria')}>
                 Consultoria
               </a>
             </li>
             <li className="navItem">
-              <a href="#" className="navLink">
-                Sobre
+              <a href="#" className="navLink" onClick={() => setMenu('investimento')}>
+                Investimento
               </a>
             </li>
             <li className="navItem">
-              <a href="#" className="navLink">
-                Contato
+              <a href="#" className="navLink" onClick={() => setMenu('sobre')}>
+                Sobre
               </a>
             </li>
+
           </ul>
         </div>
       </header>

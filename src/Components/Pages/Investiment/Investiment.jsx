@@ -2,8 +2,13 @@ import React from "react";
 import "./investiment.scss";
 
 export const Investiment = () => {
+
+  const handleButtonClick = () => {
+    window.location.href ='https://api.whatsapp.com/send?phone=5547997257509&text=Quero%20garantir%20minha%20vaga%20na%20consultoria!😀'
+  }
+
   return (
-    <section className="investiment-container">
+    <section id="investimento" className="investiment-container">
       <div className="investiment">
         <div className="investiment-content">
           <header className="investiment-header">
@@ -21,7 +26,7 @@ export const Investiment = () => {
             <h1>À vista, receba 10% de desconto</h1>
           </article>
 
-          <button className="cta-button">Garanta seu lugar</button>
+          <button className="cta-button" onClick={handleButtonClick}>Garanta seu lugar</button>
 
           <footer className="investment-footer">
             <h2>Atenção! Vagas limitadas: somente 8 pessoas por grupo.</h2>

@@ -129,6 +129,43 @@
     }
   }
 }
+@media screen and (min-width: 1080px) {
+  .investiment-container {
+    .investiment {
+      .investiment-content {
+        .investiment-header {
+          h1 {
+            font-size: 2.6vw;
+            margin-right: 4vw;
+          }
+          p {
+            font-size: 1.6vw;
+            margin-right: 4vw;
+          }
+        }
+        .investment-details {
+          h2 {
+            font-size: 3vw;
+          }
+          h1 {
+            font-size: 2.2vw;
+          }
+          .investment-price {
+            font-size: 6.8vw;
+          }
+        }
+        .cta-button {
+          padding: 2.2rem 2.2rem;
+          font-size: 1.4rem;
+        }
+        .investment-footer {
+          font-size: 1.4vw;
+        }
+      }
+    }
+  }
+}
+
 
 @media screen and (min-width: 1440px) {
   .investiment-container {
