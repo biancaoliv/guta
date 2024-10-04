@@ -6,28 +6,25 @@
   align-items: center;
 
   .investiment {
-    width: 100%;
     background-color: #2d493e;
-    padding: 2rem;
-    border-radius: 20px;
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
 
     .investiment-content {
       text-align: center;
+      padding-top: 2rem;
+      padding-left: 2rem; 
+      padding-right: 2rem; 
+      padding-bottom: 2rem;
       .investiment-header {
-        padding-left: 2rem;
-
         h1 {
           text-align: center;
-          font-size: 7vw;
+          font-size: 6vw;
           color: #fcb67d;
-          margin-right: 8vw;
         }
         p {
           text-align: center;
-          font-size: 3.6vw;
+          font-size: 3.2vw;
           color: #fcb67d;
-          margin-right: 8vw;
         }
       }
       .investment-details {
@@ -37,18 +34,18 @@
           color: #a2ccb5;
         }
         h1 {
-          font-size: 6vw;
+          font-size: 4vw;
           text-align: center;
           color: #fcb67d;
         }
         .investment-price {
           text-align: center;
-          font-size: 12vw;
+          font-size: 10vw;
           color: #a2ccb5;
         }
       }
       .cta-button {
-        padding: 1.4rem 1.6rem;
+        padding: 1.2rem 1.4rem;
         font-size: 1rem;
         font-weight: 500;
         background-color: #fcb67d;
@@ -61,7 +58,7 @@
       }
       .investment-footer {
         text-align: center;
-        font-size: 3vw;
+        font-size: 2.8vw;
         color: #a2ccb5;
         margin-top: 1rem;
       }
@@ -105,7 +102,7 @@
       .investiment-content {
         .investiment-header {
           h1 {
-            font-size: 4vw;
+            font-size: 3.4vw;
           }
           p {
             font-size: 2.2vw;
@@ -116,14 +113,14 @@
             font-size: 4vw;
           }
           h1 {
-            font-size: 3.4vw;
+            font-size: 3.2vw;
           }
           .investment-price {
-            font-size: 10vw;
+            font-size: 9vw;
           }
         }
         .investment-footer {
-          font-size: 2vw;
+          font-size: 1.8vw;
         }
       }
     }
@@ -135,12 +132,10 @@
       .investiment-content {
         .investiment-header {
           h1 {
-            font-size: 2.6vw;
-            margin-right: 4vw;
+            font-size: 3.6vw;
           }
           p {
-            font-size: 1.6vw;
-            margin-right: 4vw;
+            font-size: 2vw;
           }
         }
         .investment-details {
@@ -155,11 +150,11 @@
           }
         }
         .cta-button {
-          padding: 2.2rem 2.2rem;
+          padding: 2rem 2rem;
           font-size: 1.4rem;
         }
         .investment-footer {
-          font-size: 1.4vw;
+          font-size: 1.2vw;
         }
       }
     }
@@ -174,11 +169,9 @@
         .investiment-header {
           h1 {
             font-size: 2.6vw;
-            margin-right: 4vw;
           }
           p {
             font-size: 1.6vw;
-            margin-right: 4vw;
           }
         }
         .investment-details {

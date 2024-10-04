@@ -3,7 +3,7 @@ import "./presentation.scss";
 import guta from "../../../Assets/guta.png";
 export const Presentation = () => {
   return (
-    <section id="sobre" className="presentation-container">
+    <section id="sobre" className="presentation-container gutters">
       <div className="presentation">
         <div className="presentation-img">
           <div className="presentation-text">

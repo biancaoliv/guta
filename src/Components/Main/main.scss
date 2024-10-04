@@ -18,28 +18,29 @@
       width: 100%;
 
       img {
-        width: 0%;
+        width: 60%;
         height: auto;
+        padding-right: 1.6rem;
       }
 
       .text {
         text-align: left;
-        padding-left: 2rem;
 
         h1 {
-          font-size: 8vw;
-          margin-bottom: 1rem;
+          font-size: 2.6vw;
+          margin-bottom: 0.6rem;
           color: #4d7565;
+          margin-bottom: 0.8rem;
+
         }
 
         h2 {
-          font-size: 5vw;
-          margin-bottom: 0.5rem;
+          font-size: 2.2vw;
           color: #2d493e;
         }
 
         p {
-          font-size: 4vw;
+          font-size: 2vw;
           margin-bottom: 1rem;
           color: #4d7565;
           font-weight: 500;
@@ -57,29 +58,26 @@
         align-items: flex-start;
 
         img {
-          width: 50%;
           height: auto;
-          margin-left: 1rem;
         }
 
         .text {
           text-align: left;
-          padding-left: 1.2rem;
 
           h1 {
-            font-size: 3vw;
-            margin-bottom: 1rem;
+            font-size: 2.6vw;
+            margin-bottom: 0.8em;
+            
             color: #4d7565;
           }
 
           h2 {
-            font-size: 3vw;
-            margin-bottom: 0.5rem;
+            font-size: 2.2vw;
             color: #2d493e;
           }
 
           p {
-            font-size: 2.4vw;
+            font-size: 2.2vw;
             margin-bottom: 1rem;
             color: #4d7565;
           }
@@ -99,20 +97,17 @@
 
         img {
           width: 50%;
-          margin-bottom: 2rem;
-          margin-right: 2rem;
-          margin-left: 2rem;
+          margin-right: 1.6rem;
         }
 
         .text {
           width: 40%;
-          padding-left: 0;
 
           h1 {
-            font-size: 3.5vw;
+            font-size: 3vw;
           }
           h2 {
-            font-size: 2.8vw;
+            font-size: 2.4vw;
           }
           p {
             font-size: 2vw;
@@ -143,9 +138,13 @@
 
           h1 {
             font-size: 2.8vw;
+            margin-bottom: 2rem;
+
           }
           h2 {
             font-size: 1.8vw;
+            margin-bottom: 1rem;
+
           }
           p {
             font-size: 1.6vw;

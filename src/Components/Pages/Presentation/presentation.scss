@@ -11,23 +11,19 @@
     flex-direction: row;
     .presentation-text {
       flex: 1 1 45%;
-      padding-right: 1rem;
-      padding-left: 1rem;
-      margin-right: 1rem;
 
       h1 {
-        margin-top: 2rem;
-        font-size: 8vw;
+        font-size: 3.4vw;
         color: #4d7565;
         margin-bottom: 1rem;
       }
 
       p {
-        font-size: 4vw;
+        font-size: 2vw;
         color: #4d7565;
         font-weight: 500;
-        margin-bottom: 1rem;
-        line-height: 1.6;
+        margin-bottom: 0.8rem;
+        line-height: 1.4;
       }
     }
 
@@ -35,8 +31,9 @@
       display: flex;
 
       img {
-        width: 0%;
+        width: 55%;
         height: auto;
+        margin-left: 1.6rem;
       }
     }
   }
@@ -45,12 +42,7 @@
 @media screen and (min-width: 500px) {
   .presentation-container {
     .presentation {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-direction: row;
       .presentation-text {
-        margin-right: 1rem;
         h1 {
           font-size: 3vw;
         }
@@ -59,11 +51,8 @@
         }
       }
       .presentation-img {
-        display: flex;
         img {
-          width: 55%;
           height: auto;
-          padding-right: 1rem;
         }
       }
     }
@@ -74,13 +63,16 @@
   .presentation-container {
     .presentation {
       .presentation-text {
-        margin-right: 1rem;
-
         h1 {
           font-size: 3.5vw;
         }
         p {
           font-size: 2.2vw;
+        }
+      }
+      .presentation-img {
+        img {
+          padding-left: 2rem;
         }
       }
     }
@@ -92,9 +84,12 @@
       .presentation-text {
         h1 {
           font-size: 3.8vw;
+          margin-bottom: 2.6rem;
         }
         p {
-          font-size: 1.5vw;
+          font-size: 2vw;
+          line-height: 1.6;
+
         }
       }
       .presentation-img {
@@ -115,12 +110,14 @@
       gap: 10px;
       .presentation-text {
         h1 {
-          font-size: 3.4vw;
-          margin-bottom: 2rem;
+          font-size: 4vw;
+          margin-bottom: 3rem;
         }
         p {
-          font-size: 1.5vw;
-          line-height: 1.8;
+          font-size: 2vw;
+          line-height: 1.6;
+          margin-bottom: 2rem;
+
         }
       }
       .presentation-img {

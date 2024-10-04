@@ -9,7 +9,7 @@ export const Home = () => {
   }
 
   return (
-    <section id='inicio' className="home-section">
+    <section id='inicio' className="home-section gutters">
       <div className="home">
         <div className="home-content">
           <div className="textDiv">

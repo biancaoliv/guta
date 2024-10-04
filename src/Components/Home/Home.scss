@@ -8,23 +8,22 @@
   
         .textDiv {
           text-align: left;
-          padding: 20px;
           h1 {
-            font-size: 1.6rem;
+            font-size: 1.4rem;
             margin-bottom: 0.8rem;
             color: #4d7565;
           }
   
           p {
-            font-size: 1rem;
+            font-size: 0.8rem;
             color: #4d7565;
             font-weight: 500;
             margin-bottom: 0.8rem;
           }
   
           .btn {
-            padding: 1.4rem 2rem;
-            font-size: 1rem;
+            padding: 0.6rem 0.6rem;
+            font-size: 0.9rem;
             font-weight: 500;
             background-color: #fcb67d;
             margin-top: 1rem;
@@ -42,11 +41,12 @@
         }
   
         img {
-          width: 0%;
-          right: 1%;
+          width: 65%;
           height: auto;
           position: relative;
           z-index: 1;
+          margin-left: 1rem;
+
         }
       }
     }
@@ -59,19 +59,19 @@
           .textDiv {
             width: 100%;
             h1 {
-              font-size: 2rem;
+              font-size: 1.6rem;
             }
             p {
-              font-size: 1rem;
+              font-size: 0.8rem;
             }
             .btn {
-              padding: 1rem;
-              font-size: 1.3rem;
+              padding: 1rem 1rem;
+              font-size: 1rem;
             }
           }
           img {
             width: 58%;
-            padding-right: 1rem;
+            margin-left: 3rem;
           }
         }
       }
@@ -93,10 +93,13 @@
             .btn {
               padding: 2rem;
               font-size: 1.3rem;
+              
             }
           }
           img {
             width: 50%;
+            margin-left: 1.4rem;
+
           }
         }
       }
@@ -110,7 +113,7 @@
           .textDiv {
             width: 100%;
             h1 {
-              font-size: 4rem;
+              font-size: 3rem;
             }
             p {
               font-size: 1.6rem;
@@ -144,7 +147,6 @@
             .btn {
               padding: 2rem;
               font-size: 1.6rem;
-              margin-top: 1rem;
             }
           }
           img {

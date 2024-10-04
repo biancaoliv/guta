@@ -8,7 +8,7 @@ export const Investiment = () => {
   }
 
   return (
-    <section id="investimento" className="investiment-container">
+    <section id="investimento" className="investiment-container ">
       <div className="investiment">
         <div className="investiment-content">
           <header className="investiment-header">

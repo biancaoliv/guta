@@ -4,7 +4,7 @@ import square from "../../Assets/square.png";
 
 export const Main = () => {
   return (
-    <section id="consultoria" className="main-container">
+    <section id="consultoria" className="main-container gutters" >
       <div className="main">
         <div className="main-content">
           <img src={square} alt="mulher" />
