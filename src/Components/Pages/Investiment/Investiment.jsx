@@ -1,14 +1,19 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./investiment.scss";
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 export const Investiment = () => {
+  useEffect(() => {
+    Aos.init({duration: 2000})
+}, [])
 
   const handleButtonClick = () => {
     window.location.href ='https://api.whatsapp.com/send?phone=5547997257509&text=Quero%20garantir%20minha%20vaga%20na%20consultoria!😀'
   }
 
   return (
-    <section id="investimento" className="investiment-container ">
+    <section data-aos="fade-up" id="investimento" className="investiment-container ">
       <div className="investiment">
         <div className="investiment-content">
           <header className="investiment-header">

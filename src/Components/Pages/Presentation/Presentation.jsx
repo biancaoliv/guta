@@ -1,9 +1,12 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./presentation.scss";
 import guta from "../../../Assets/guta.png";
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+
 export const Presentation = () => {
   return (
-    <section id="sobre" className="presentation-container gutters">
+    <section data-aos="fade-right"id="sobre" className="presentation-container gutters">
       <div className="presentation">
         <div className="presentation-img">
           <div className="presentation-text">

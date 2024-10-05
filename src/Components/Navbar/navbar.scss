@@ -38,6 +38,13 @@
   }
 
   @media screen and (max-width: 768px) {
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: top 0.3s; 
+
     .menuHamburger {
       display: block;
       top: 1rem;
@@ -159,6 +166,7 @@
     }
   }
 }
+
 @media screen and (min-width: 1240px) {
   .header {
     .navBar {
