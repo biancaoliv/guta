@@ -20,7 +20,7 @@ const Navbar = () => {
   }
 
   return (
-    <section className="navBarSection">
+    <section className="navBarSection" >
       <header className="header flex">
         <div className="logoDiv">
           <a href="#" className="logo flex">

@@ -17,7 +17,7 @@ export const Presentation = () => {
               Formada em Direito aos 21 anos, Abri mão da profissão para seguir
               uma nova direção, inspirada pela transformação que vivi e pela
               inquietude de saber que eu poderia ajudar outras pessoas. Assim
-              nasceu a Guta Consultora de Imagem.
+              nasceu a Guta, Consultora de Imagem.
             </p>
             <p>
               Com diversas formações na área e graduação em Bastidores de Moda
